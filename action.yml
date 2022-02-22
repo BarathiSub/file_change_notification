@@ -37,8 +37,8 @@ runs:
     - ${{ inputs.subjectLine }}
     - ${{ inputs.smtpServer }}
     - ${{ inputs.smtpPort }}
-    - ${{ inputs.smtpUsername }}
-    - ${{ inputs.smtpPassword }}
+#     - ${{ inputs.smtpUsername }}
+#     - ${{ inputs.smtpPassword }}
     - ${{ inputs.githubToken }}
 branding:
   icon: mail
