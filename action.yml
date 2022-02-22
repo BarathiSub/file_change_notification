@@ -18,12 +18,12 @@ inputs:
     description: 'The SMTP port used to send E-Mails'
     required: false
     default: 587
-  smtpUsername:
-    description: 'The SMTP user name used to send E-Mails'
-    required: true
-  smtpPassword:
-    description: 'The SMTP password used to send E-Mails'
-    required: true
+#   smtpUsername:
+#     description: 'The SMTP user name used to send E-Mails'
+#     required: true
+#   smtpPassword:
+#     description: 'The SMTP password used to send E-Mails'
+#     required: true
   githubToken:
     description: 'Token used for cloning the repository'
     required: false
